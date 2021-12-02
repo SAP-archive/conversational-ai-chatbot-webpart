@@ -81,7 +81,7 @@ The web part is also currently localized in two languages — English and Russia
 
 You can find this project's extensive coverage, as well as a detailed step-by-step setup guide here:
 
-- (:us:) On [Blogs.SAP.com](https://blogs.sap.com): [Adding SAP Conversational AI Chat-bots to SharePoint Pages](https://blogs.sap.com/?p=coming-soon).
+- (:us:) On [Blogs.SAP.com](https://blogs.sap.com): [Adding SAP Conversational AI Chat-bots to SharePoint Pages](https://blogs.sap.com/?p=1451773).
 
 ## Requirements
 
@@ -110,7 +110,7 @@ This sample also uses the following open-source modules:
 
 **This code is provided *as is* without warranty of any kind, either express or implied, including any implied warranties of fitness for a particular purpose, merchantability, or non-infringement. There is also no guarantee or warranty that raised issues will be answered or addressed in future releases.**
 
-You can always download the latest precompiled package of this web part from this repository's [Releases page](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/releases). For the detailed instructions on how to then add the web part on your SharePoint site, please refer to [my post on SAP Blogs](https://blogs.sap.com/?p=coming-soon).
+You can always download the latest precompiled package of this web part from this repository's [Releases page](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/releases). For the detailed instructions on how to then add the web part on your SharePoint site, please refer to [my post on SAP Blogs](https://blogs.sap.com/?p=1451773).
 
 ### Creating the .sppkg file
 
@@ -149,7 +149,7 @@ If you discover other issues and/or bugs, please don't hesitate on [creating an 
 
 ## How to obtain support
 
-As mentioned above, you may [create an issue](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/issues) in this repository, or you may check out [the SAP Blogs post on this web part](https://blogs.sap.com/?p=coming-soon) and send your comment there.
+As mentioned above, you may [create an issue](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/issues) in this repository, or you may check out [the aforementioned SAP Blogs post on this web part](https://blogs.sap.com/?p=1451773) and send your comment there.
 
 ## Contributing
 
