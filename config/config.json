@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cai-chatbot-bundle": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cai-chatbot/chatbotWebpart.js",
+          "manifest": "./src/webparts/cai-chatbot/chatbotWebpart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ChatbotStrings": "lib/webparts/cai-chatbot/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

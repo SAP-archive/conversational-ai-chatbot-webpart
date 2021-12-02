@@ -1,0 +1,17 @@
+export const constants = {
+  placeholderIconText: 'CAI Chatbot',
+  channelOptionsWebchat: 'Webchat',
+  channelOptionsWebClient: 'SAP CAI Web Client',
+  sTagType: 'text/javascript',
+  sTagWebchatAttrChannelId: 'channelId',
+  sTagWebchatAttrToken: 'token',
+  sTagWebclientAttrChannelId: 'data-channel-id',
+  sTagWebclientAttrToken: 'data-token',
+  sTagWebclientAttrEP: 'data-expander-preferences',
+  sTagWebclientAttrET: 'data-expander-type',
+  sTagWebchatSrc: 'https://cdn.cai.tools.sap/webchat/webchat.js',
+  sTagWebchatId: 'cai-webchat',
+  sTagWebClientSrc: 'https://cdn.cai.tools.sap/webclient/bootstrap.js',
+  sTagWebClientId: 'cai-webchat-custom',
+  sTagWebClientET: 'CAI',
+} as const;
