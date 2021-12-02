@@ -1,6 +1,6 @@
-# CAI Chatbot web part
+# SAP Conversational AI Chatbot Web Part
 
-[![spo](https://img.shields.io/badge/SharePoint-Online-important.svg?style=flat-square)](https://www.microsoft.com/en-ww/microsoft-365/sharepoint/collaboration) [![spfx](https://img.shields.io/badge/SPFx-1.13-green.svg?style=flat-square)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) [![node](https://img.shields.io/badge/Node.js-LTS%20v14-brihtgreen.svg?style=flat-square)](https://nodejs.org/) [![ts](https://img.shields.io/badge/TypeScript-%5E3.7.7-brihtgreen.svg?style=flat-square)](https://www.typescriptlang.org/) [![gulp](https://img.shields.io/badge/gulp.js-%5E4.0.2-brihtgreen.svg?style=flat-square)](https://gulpjs.org/)
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/conversational-ai-chatbot-webpart)](https://api.reuse.software/info/github.com/SAP-samples/conversational-ai-chatbot-webpart) [![spo](https://img.shields.io/badge/SharePoint-Online-important.svg?style=flat-square)](https://www.microsoft.com/en-ww/microsoft-365/sharepoint/collaboration) [![spfx](https://img.shields.io/badge/SPFx-1.13-green.svg?style=flat-square)](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview) [![node](https://img.shields.io/badge/Node.js-LTS%20v14-brihtgreen.svg?style=flat-square)](https://nodejs.org/) [![ts](https://img.shields.io/badge/TypeScript-%5E3.7.7-brihtgreen.svg?style=flat-square)](https://www.typescriptlang.org/) [![gulp](https://img.shields.io/badge/gulp.js-%5E4.0.2-brihtgreen.svg?style=flat-square)](https://gulpjs.org/)
 
 ## Table of Contents
 
