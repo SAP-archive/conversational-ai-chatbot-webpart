@@ -1,0 +1,45 @@
+name: Build, package and release the CAI Chatbot web part solution
+on:
+ push:
+   branches: [master]
+env:
+  SPPKG_FILENAME: 'cai-chatbot.sppkg'
+jobs:
+  build-package:
+    name: Build and package solution
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Set up Node.js 14.17.1 LTS
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+      - name: Run npm ci
+        run: npm ci
+      - name: Generate solution
+        run: npm run release
+      - name: Save artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: caichatbot
+          path: sharepoint/solution/${{ env.SPPKG_FILENAME }}
+  release:
+    name: Release solution
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/master'
+    needs: [build-package]
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: caichatbot
+      - name: Upload released solution
+        uses: "marvinpinto/action-automatic-releases@latest"
+        with:
+          repo_token: "${{ secrets.GITHUB_TOKEN }}"
+          title: "CAI Chatbot web part"
+          automatic_release_tag: "latest"
+          prerelease: false
+          files: |
+            **/*.sppkg
