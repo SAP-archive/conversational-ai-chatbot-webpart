@@ -110,24 +110,24 @@ This sample also uses the following open-source modules:
 
 **This code is provided *as is* without warranty of any kind, either express or implied, including any implied warranties of fitness for a particular purpose, merchantability, or non-infringement. There is also no guarantee or warranty that raised issues will be answered or addressed in future releases.**
 
-You can always download the latest precompiled package of this web part from this repository's [Releases page](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/releases). For the detailed instructions on how to then add the web part on your SharePoint site, please refer to [my post on SAP Blogs](https://blogs.sap.com/?p=1451773).
+You can always download the latest precompiled package of this web part from this repository's [Releases page](https://github.com/SAP-samples/conversational-ai-chatbot-webpart/releases). For the detailed instructions on how to then add the web part on your SharePoint site, please refer to [my post on SAP Blogs](https://blogs.sap.com/?p=1451773). As mentioned, currently the latest version of Node.js supported by the SharePoint framework is **Node.js v14 (Fermium)**, so be sure to have this version installed before proceeding. 
 
 ### Creating the .sppkg file
 
 First, clone this repository:
 
 ```bat
-git clone https://github.com/gevartrix/cai-chatbot-webpart.git
+git clone https://github.com/SAP-samples/conversational-ai-chatbot-webpart.git
 ```
 
-Change directory to this project's root folder and install the required modules (it may take several minutes):
+Change directory to this project's root folder and install the required modules (the installation process may take up to several minutes):
 
 ```bat
-cd cai-chatbot-webpart\
+cd conversational-ai-chatbot-webpart\
 npm install
 ```
 
-Finally, run the following package script
+Finally, run the following package script:
 
 ```bat
 npm run release
@@ -137,7 +137,7 @@ to generate the `cai-chatbot.sppkg` file inside the `sharepoint\solution\` folde
 
 Once the `.sppkg` file has been compiled, you can upload it to your site's App Catalog, and the web part should appear in the "Edit" mode.
 
-To run the web part locally, execute `npm run serve`.
+To run the web part locally, execute `npm run serve`. It should open the local version of SPFx Workbench in your default browser. Please remember, that [it cannot display the integrated chat-bot locally](#description), though.
 
 ## Known Issues
 
